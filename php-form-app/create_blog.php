@@ -16,7 +16,8 @@ if (isset($_POST['submit'])) {
 ?>
 
  <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <input name="title" type="text" placeholder="Title"/>
-            <textarea name="body" rows="15" cols="40" placeholder="Body"></textarea><br>
-            <input type="submit" value="Submit" name="submit"/>
+            <input name="title" type="text" placeholder="Title" class="w-100"/>
+            <br>
+            <textarea name="body" rows="15" cols="40" placeholder="Body" class="w-100"></textarea><br>
+            <input type="submit" value="Submit" name="submit" class="w-100"/>
 </form>

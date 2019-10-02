@@ -5,4 +5,5 @@
     <link rel="stylesheet" href="./assets/cssimple.css">
     <title>A Simple Login & Registration From With PHP</title>
 </head>
-<body class="container centered">
+<body class="container">
+    <div class="centered">

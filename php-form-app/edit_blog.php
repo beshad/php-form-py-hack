@@ -25,8 +25,8 @@ $blog = mysqli_fetch_assoc($result);
 ?>
 
  <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <input value="<?php echo $blog['title'] ?>" name="title" type="text" placeholder="Title"/>
-            <textarea name="body" rows="15" cols="40" placeholder="Body"><?php echo $blog['body'] ?></textarea><br>
+            <input class="w-100" value="<?php echo $blog['title'] ?>" name="title" type="text" placeholder="Title"/>
+            <textarea class="w-100" name="body" rows="15" cols="40" placeholder="Body"><?php echo $blog['body'] ?></textarea><br>
             <input type="hidden" name="update_id" value="<?php echo $blog['id'] ?>">
-            <input type="submit" value="Submit" name="submit"/>
+            <input class="w-100" type="submit" value="Submit" name="submit"/>
 </form>

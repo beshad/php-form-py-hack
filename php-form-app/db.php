@@ -1,5 +1,9 @@
 <?php
-$conn = mysqli_connect('localhost', 'id11077513_root', 'id11077513_password', 'id11077513_simple_php_form');
+// $conn = mysqli_connect('localhost', 'id11077513_root', 'id11077513_password', 'id11077513_simple_php_form');
+//  if (mysqli_connect_errno()) {
+//    echo 'Failed to connect to MYSQL';
+// }
+$conn = mysqli_connect('localhost', 'root', 'root', 'simple_php_form');
  if (mysqli_connect_errno()) {
    echo 'Failed to connect to MYSQL';
 }
